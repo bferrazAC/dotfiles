@@ -9,8 +9,8 @@
 sh install
 ```
 
-##updating .profile
+##after install
 
 ```
-sh install
+source ~/.profile
 ```
