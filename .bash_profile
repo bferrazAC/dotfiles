@@ -31,8 +31,4 @@ alias stagingStop='cd ~/Projetos/esportes/scripts; workon globoesporte; sudo ./s
 
 alias sub='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
-# QUATIX
-alias quatix='cd ~/Dropbox/CLIENTES/Quatix/EuAtleta/euatleta/src/website; workon quatix'
-alias torneira='sudo PYTHONPATH=../../core torneira --port=80'
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
