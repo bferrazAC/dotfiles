@@ -86,12 +86,12 @@ else
 	msg_ok "OK"
 fi
 
-# update gems
-# if which gem &> /dev/null; then
-# 	msg_checking "gem"
-# 	sudo gem update --system
-# 	echo "gem"
-# fi
+update gems
+if which gem &> /dev/null; then
+	msg_checking "gem"
+	sudo gem update --system
+	echo "gem"
+fi
 
 #capistrano
 if which cap &> /dev/null; then
