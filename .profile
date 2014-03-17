@@ -24,17 +24,7 @@ alias celar='clear'
 # sofwares
 alias textedit='/Applications/TextEdit.app/Contents/MacOS/TextEdit'
 alias csslintUpdate='sudo npm install -g csslint'
-alias sublime='cd /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/; ./subl'
-
-# dropbox
-alias dotfiles='cd /Users/davidson/Dropbox/labs/dotfiles'
-alias dropbox='cd /Users/davidson/Dropbox'
-alias mestrado='cd /Users/davidson/Dropbox/study/mestrado'
-alias labs='cd /Users/davidson/Dropbox/labs'
-alias talks='cd /Users/davidson/Dropbox/talks'
-
-# others dirs
-alias projetos='cd /Users/davidson/Projetos'
+alias sublime='cd /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/; ./sub'
 
 # mongo
 alias mongoRun='mongod --config /usr/local/Cellar/mongodb/2.0.1-x86_64/mongod.conf'
