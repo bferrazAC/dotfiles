@@ -21,20 +21,11 @@ alias trash='rm -fr ~/.Trash'
 alias up='cd ..'
 alias celar='clear'
 
-# sofwares
-alias textedit='/Applications/TextEdit.app/Contents/MacOS/TextEdit'
-alias csslintUpdate='sudo npm install -g csslint'
-alias sublime='cd /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/; ./sub'
-
 # mongo
 alias mongoRun='mongod --config /usr/local/Cellar/mongodb/2.0.1-x86_64/mongod.conf'
 
 # spec
 alias specjs='rake spec:javascript'
-
-# python
-alias site-packages-2.6='cd /opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages'  
-alias pyclean='find . -name "*.pyc" -exec rm {} \;'
 
 #npm
 export PATH="/usr/local/share/npm/bin:${PATH}"
