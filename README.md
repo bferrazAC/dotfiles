@@ -8,6 +8,12 @@
 $ sh install
 ```
 
+## How to install Apps
+
+```bash
+$ sh install_apps
+```
+
 ## Instalation
 
 ```bash
