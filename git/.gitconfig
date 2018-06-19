@@ -47,6 +47,7 @@
     active = shortlog --numbered --summary --email --no-merges --since="6 months"
 [core]
     editor = "/usr/bin/subl"
+	excludesfile = /Users/kenji/.gitignore_global
 [push]
     default = simple
 [filter "media"]

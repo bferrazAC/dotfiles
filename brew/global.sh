@@ -48,10 +48,13 @@ brew install coreutils
 brew install moreutils
 brew install findutils
 brew install bash
+brew install git
 brew install bash-completion
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/screen
+
+###############################################################################
+# Install virtualenvwrapper
+###############################################################################
+pip install virtualenv virtualenvwrapper
 
 
 ###############################################################################
