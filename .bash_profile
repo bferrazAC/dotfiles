@@ -61,6 +61,7 @@ export PGHOST=localhost
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export WORKON_HOME=$HOME/.virtualenvs # set where virutal environments will live
 # ensure all new environments are isolated from the site-packages directory
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 # use the same directory for virtualenvs as virtualenvwrapper
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
@@ -73,9 +74,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
-	source /usr/local/bin/virtualenvwrapper.sh
+    source /usr/local/bin/virtualenvwrapper.sh
 else
-	echo "WARNING: Can't find virtualenvwrapper.sh"
+    echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
 
 # rvm

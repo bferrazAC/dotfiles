@@ -23,6 +23,5 @@ fi
 sh brew/global.sh
 sh node/global.sh
 sh bpkg/global.sh
-sh ruby/global.sh
 sh sublime/global.sh
 sh common/dotfiles.sh

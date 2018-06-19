@@ -1,9 +1,11 @@
+source common/functions.sh
+
 # bpkg
 if which bpkg &> /dev/null; then
     msg_checking "bpkg"
 else
     msg_install "bpkg" "curl -Lo- http://get.bpkg.io| bash"
-    curl -Lo- http://get.bpkg.io| bash
+    curl -Lo- "https://raw.githubusercontent.com/bpkg/bpkg/master/setup.sh" | bash
     msg_ok "OK"
 fi
 
